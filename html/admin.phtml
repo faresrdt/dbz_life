@@ -1,0 +1,20 @@
+<div class="articleHead">
+    <h1>ADMIN</h1>
+</div>
+<?php if (isset($sessionAdmin)) { ?>
+    <div class="sessionAdmin"><?= $sessionAdmin ?></div>
+<?php } ?>
+
+
+<ul class="post-list">
+    <?php for ($i=0 ; $i<count($liste) ; $i++) : ?>
+        <li>
+            <p>Titre de l'article : <?= $liste[$i]['titre'] ?></p>
+            <p><em>Date de creation : <?= $liste[$i]['dateCreation'] ?>.</em></p>
+            <p>Auteur : <?= $liste[$i]['auteur'] ?></em></p>
+
+            <p><a href="edit.php?ref=<?= $liste[$i]['id'] ?>">Éditer <i class="fa fa-cogs" aria-hidden="true"></i></a>
+                <a href="delete.php?ref=<?= $liste[$i]['id'] ?>">Supprimer <i class="fa fa-trash" aria-hidden="true"></i></a></p>
+        </li>
+    <?php endfor; ?>
+</ul>

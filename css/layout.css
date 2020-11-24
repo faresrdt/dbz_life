@@ -1,0 +1,206 @@
+.title {
+    color: #092759;
+
+    text-shadow: 0px 0px 6px #000000,
+        0px 0px 6px #FFF, 0px 0px 6px #FFF,
+        0px 0px 6px #FFF, 0px 0px 6px #FFF,
+        0px 0px 6px #FFF, 0px 0px 6px #FFF,
+        0px 0px 6px #FFF, 0px 0px 6px #FFF,
+        0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255),
+        0px 0px 6px rgb(255, 255, 255),
+        0px 0px 6px rgb(255, 255, 255),
+        0px 0px 6px rgb(255, 255, 255),
+        0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255);
+}
+
+header {
+    background: url("../img/bann_color.jpg") no-repeat scroll top;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    margin-bottom: 2em;
+    width: 100%;
+    /*height : 800px;*/
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5em;
+    position: relative;
+    padding-top: 6em;
+    height: 600px;
+}
+
+nav {
+    background-color: #092759;
+    border-bottom: 0.5px solid white;
+    -webkit-box-shadow: 0px 5px 17px 0px rgba(255, 255, 255, 0.53);
+    -moz-box-shadow: 0px 5px 17px 0px rgba(255, 255, 255, 0.53);
+    box-shadow: 0px 5px 17px 0px rgba(255, 255, 255, 0.53);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    line-height: 2.5em;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    font-size: 0.8em;
+}
+
+
+
+
+
+body {
+    background-color: #061540;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/***********************************************************************************************************************
+************************************************************************************************************************
+************************************************ MAIN ****************************************************************
+************************************************************************************************************************
+************************************************************************************************************************
+***********************************************************************************************************************/
+h2 {
+    margin-top: 0;
+}
+
+#centre {
+    background-color: #F8F8F8;
+    text-align: justify;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+    -moz-box-shadow: 0px 0px 5px 0px #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0px #ffffff;
+    -o-box-shadow: 0px 0px 5px 0px #ffffff;
+    box-shadow: 0px 0px 5px 0px #ffffff;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#ffffff, Direction=NaN, Strength=15);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#centre h1 {
+    text-align: center;
+}
+
+
+#centre>ul {
+    padding-left: 0;
+}
+
+#centre>ul>li {
+    list-style-type: none;
+
+    border-bottom: 1px dashed black;
+
+}
+
+
+
+aside {
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-bottom: 1.5em;
+
+    -moz-box-shadow: 0px 0px 5px 0px #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0px #ffffff;
+    -o-box-shadow: 0px 0px 5px 0px #ffffff;
+    box-shadow: 0px 0px 5px 0px #ffffff;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#ffffff, Direction=NaN, Strength=15);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+aside:nth-child(2) {
+    margin-top: 1em;
+}
+
+aside ul {
+    padding-left: 0;
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+.account {
+    color: black;
+}
+
+.articleHead {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.asideHead {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.asideHead h2 {
+    font-size: 25px;
+}
+
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.errorMessage {
+    color: red;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+/***********************************************************************************************************************
+************************************************************************************************************************
+************************************************ FOOTER ****************************************************************
+************************************************************************************************************************
+************************************************************************************************************************
+***********************************************************************************************************************/
+
+
+footer {
+    padding-top: 2em;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+@media screen and (min-width: 1300px) {
+    header {
+        background-size: 100% 100%;
+    }
+}
+
+/***********************************************************************************************************************
+************************************************************************************************************************
+************************************************ PHONE ****************************************************************
+************************************************************************************************************************
+************************************************************************************************************************
+***********************************************************************************************************************/
+
+@media screen and (max-width: 767px) {
+    .asides {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .navbar-fixed-top {
+        display: none;
+    }
+}

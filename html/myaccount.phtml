@@ -1,0 +1,13 @@
+<div class="articleHead">
+    <h1>MON COMPTE</h1>
+</div>
+
+<ul id="monProfil" class="list-group">
+    <li class="list-group-item"><span class="col-md-3 col-xs-12 col-sm-6">Mon pseudonyme :</span> <?= $user['pseudo'] ?></li>
+    <li class="list-group-item"><span class="col-md-3 col-xs-12 col-sm-6">Mon nom :</span> <?= $user['nom'] ?></li>
+    <li class="list-group-item"><span class="col-md-3 col-xs-12 col-sm-6">Mon prénom :</span> <?= $user['prenom'] ?></li>
+    <li class="list-group-item"><span class="col-md-3 col-xs-12 col-sm-6">Mon adresse mail :</span> <?= $user['mail'] ?></li>
+</ul>
+
+<p><a href="editProfil.php?ref=<?= $user['id'] ?>">Éditer <i class="fa fa-cogs" aria-hidden="true"></i></a>
+    <a href="deleteProfil.php?ref=<?= $user['id'] ?>">Supprimer <i class="fa fa-trash" aria-hidden="true"></i></a></p>

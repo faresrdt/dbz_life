@@ -1,0 +1,38 @@
+<div class="articleHead">
+    <h1>EDITION</h1>
+</div>
+
+
+<div id="editArticle"> 
+
+    <form class="form-group row" action="/php/update.php" method="post">
+        <label for="titre" class="col-sm-2 form-control-label">Titre</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="titre" name="titre" value="<?= $article['titre']?>">
+        </div>
+
+        <label for="image" class="col-sm-2 form-control-label">Image</label>
+        <div class="col-sm-10">
+            <input type="file" class="form-control" id="inputFile"  name="img">
+        </div>
+
+        <label for="sujet" class="col-sm-2 form-control-label">Sujet : </label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="sujet"  name="sujet" value="<?= $article['sujet'] ?>">
+        </div>
+
+        <label for="description" class="col-sm-2 form-control-label">Description</label>
+            <div class="col-sm-10">
+                <textarea rows="30" type="text" class="form-control" id="sujet"  name="description"><?= $article['description'] ?></textarea>
+        </div>
+
+        <input type="hidden" name="auteur" value="<?= $article['auteur'] ?>">
+        <input type="hidden" name="id" value="<?= $article['id'] ?>">
+
+        <button type="submit" class="btn btn-warning ">Valider</button>
+
+    </form>
+
+
+
+</div>

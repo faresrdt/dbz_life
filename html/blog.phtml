@@ -1,0 +1,16 @@
+<div class="articleHead">
+    <h1>BLOG</h1>
+</div>
+
+<ul class="post-list">
+    <?php for ($i=0 ; $i<count($liste) ; $i++) : ?>
+        <li>
+            <h4><a href="article.php?ref=<?= $liste[$i]['id'] ?>"><?= $liste[$i]['titre'] ?></a></h4>
+            <p><em>Date de creation : <?= $liste[$i]['dateCreation'] ?></em></p>
+            <p>
+                <?= substr(htmlspecialchars($liste[$i]['description']), 0, 100) ?>&nbsp;[...]
+            </p>
+
+        </li>
+    <?php endfor; ?>
+</ul>

@@ -1,0 +1,32 @@
+/************** Modification page edit.phtml **************/
+
+#inputFile
+{
+    padding: 0;
+    background-color: inherit;
+    border : none;
+}
+
+form div
+{
+    margin-bottom: 0.5em;
+}
+
+form
+{
+    text-align: center;
+}
+
+/************** Modification page myaccount.phtml **************/
+
+#monProfil li
+{
+    border: none !important;
+    background-color: transparent;
+}
+
+#monProfil span
+{
+    font-weight: bold;
+    padding-left: 0;
+}
